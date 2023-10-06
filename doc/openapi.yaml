@@ -6,7 +6,7 @@ info:
 servers:
   - url: http://localhost:3002
     description: Local server
-  - url : https://comfy-genie-148eef.netlify.app
+  - url : https://ill-tan-elk-vest.cyclic.app
     description: Cyclic server
 components:
   securitySchemes:
