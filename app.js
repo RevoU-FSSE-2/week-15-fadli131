@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://65205c80e4b8493403717a1c--startling-macaron-e3e4a9.netlify.app/',
   methods: 'GET',
 };
 app.use(cors(corsOptions));
@@ -32,5 +32,5 @@ app.use(
 );
 
 app.listen(3002, () => {
-  console.log("Server is running on port 3002");
+  console.log("server run on https://ill-tan-elk-vest.cyclic.app/");
 });
