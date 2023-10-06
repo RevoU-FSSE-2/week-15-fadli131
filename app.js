@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'https://rad-genie-f2e7ed.netlify.app/',
+  origin: 'https://rad-genie-f2e7ed.netlify.app',
   methods: 'GET',
 };
 app.use(cors(corsOptions));
